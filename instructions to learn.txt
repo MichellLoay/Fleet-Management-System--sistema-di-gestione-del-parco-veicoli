@@ -1,0 +1,79 @@
+ITALIAN:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Componenti:
+Classe astratta - Veicolo
+Scopo: servire come classe base per diversi tipi di veicoli.
+Caratteristiche:
+• Contiene un metodo astratto startEngine() che verrà implementato dalle sottoclassi.
+• Può includere altri attributi o metodi condivisi rilevanti per tutti i veicoli.
+Classi concrete - Auto e Moto
+Scopo: rappresentare tipi specifici di veicoli.
+Caratteristiche:
+• Entrambe le classi devono estendere la classe Veicolo.
+• Il metodo startEngine() deve essere definito in modo appropriato per ciascun tipo di veicolo
+(per esempio stampando un messaggio univoco).
+Classe: Parco veicoli
+Scopo: Gestire una raccolta di oggetti Veicolo.
+Caratteristiche:
+• Contiene una serie di oggetti Veicolo.
+• Fornisce un metodo per aggiungere veicoli alla flotta.
+• Include un metodo startAllVehicles() che scorre l'array e chiama startEngine() su ciascun
+veicolo.
+Classe principale: FleetTest
+Scopo: testare la funzionalità del sistema della flotta di veicoli.
+Caratteristiche:
+• Crea istanze di auto e moto e le aggiunge al parco veicoli.
+• Richiama startAllVehicles() per dimostrare il polimorfismo in azione.
+
+
+SPANISH::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Componentes:
+Clase abstracta - Vehículo
+Propósito: servir como clase base para diferentes tipos de vehículos.
+Características:
+• Contiene un método abstracto startEngine() que será implementado por las subclases.
+• Puede incluir otros atributos o métodos compartidos relevantes para todos los vehículos.
+Clases concretas - Coche y Moto
+Propósito: representar tipos específicos de vehículos.
+Características:
+• Ambas clases deben extender la clase Vehículo.
+• El método startEngine() debe ser definido de manera apropiada para cada tipo de vehículo
+(por ejemplo, imprimiendo un mensaje único).
+Clase: Flota de vehículos
+Propósito: Gestionar una colección de objetos Vehículo.
+Características:
+• Contiene un conjunto de objetos Vehículo.
+• Proporciona un método para añadir vehículos a la flota.
+• Incluye un método startAllVehicles() que recorre el array y llama a startEngine() en cada
+vehículo.
+Clase principal: FleetTest
+Propósito: probar la funcionalidad del sistema de la flota de vehículos.
+Características:
+• Crea instancias de coches y motos y las añade a la flota de vehículos.
+• Invoca startAllVehicles() para demostrar el polimorfismo en acción.
+
+
+ENGLISH::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Components:
+Abstract class - Vehicle
+Purpose: to serve as a base class for different types of vehicles.
+Features:
+• Contains an abstract method startEngine() that will be implemented by the subclasses.
+• Can include other attributes or methods shared relevant for all vehicles.
+Concrete classes - Car and Motorcycle
+Purpose: to represent specific types of vehicles.
+Features:
+• Both classes must extend the Vehicle class.
+• The startEngine() method must be defined appropriately for each type of vehicle
+(for example printing a unique message).
+Class: Fleet
+Purpose: to manage a collection of Vehicle objects.
+Features:
+• Contains a set of Vehicle objects.
+• Provides a method to add vehicles to the fleet.
+• Includes a method startAllVehicles() that loops through the array and calls startEngine() on each
+vehicle.
+Main class: FleetTest
+Purpose: to test the functionality of the vehicle fleet system.
+Features:
+• Creates instances of cars and motorcycles and adds them to the fleet.
+• Invokes startAllVehicles() to demonstrate polymorphism in action.
